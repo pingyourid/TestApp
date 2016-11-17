@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					7784FAE91DDDCAD900730D5D = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2K758V73RH;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -270,7 +271,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2K758V73RH;
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yywtest.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,7 +285,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2K758V73RH;
 				INFOPLIST_FILE = TestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yywtest.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
